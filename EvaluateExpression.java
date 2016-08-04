@@ -96,8 +96,8 @@ public class EvaluateExpression {
 
 	public static void main(String[] args) {
 
-		String str = "51+(54*(3+2))";
-		String str2 = "3+(4+5)*(3+5)+4*5";
+		String str = "51 + (54 * (3 + 2))";
+		String str2 = "3 + (4 + 5 ) * (3 + 5) + 4 * 5";
 		try {
 			System.out.println(evaluateExpression(str));
 		} catch (Exception ex) {
